@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     imageDropdown.addEventListener('change', function() {
         const selectedValue = imageDropdown.value;
         if (selectedValue) {
-            selectedImage.src = `/pics/${selectedValue}`;
+            selectedImage.src = `pics/${selectedValue}`;
             selectedImage.style.display = 'block';
         } else {
             selectedImage.style.display = 'none';
